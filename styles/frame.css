@@ -1,0 +1,388 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+input[type=text],
+input[type=number],
+input[type=email],
+input[type=password],
+input[type=tel],
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none !important;
+    outline-style: none;
+}
+
+input:focus-visible {
+    outline-width: 0px;
+}
+
+textarea:focus-visible {
+    outline-width: 0px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+
+/* ----------Styling---------- */
+
+/* fonts poppins  */
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppins-light;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: poppinsbold;
+    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: poppinssemibold;
+    src: url(../Fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: poppins-extralight;
+    src: url(../fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+@font-face {
+    font-family: poppins-medium;
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "Gilroy-bold";
+    src: url("./fonts/gilroy-bold/Gilroy-Bold.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gilroy-medium";
+    src: url("./fonts/gilroy-bold/Gilroy-Medium.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gilroy-extrabold";
+    src: url("./fonts/gilroy-font/Gilroy-FREE/Gilroy-ExtraBold.otf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Gilroy-semibold";
+    src:url(./fonts/Gilroy-SemiBold.ttf)format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Inter-regular";
+    src:url(../fonts/Inter/static/Inter_28pt-Regular.ttf)format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: "notoserif-regular";
+    src:url(../fonts/NotoSerifDisplay-Regular.ttf)format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+.frames{
+    display:flex;
+}
+.rectangle{
+    width:50%;
+    max-height: 700px;
+    
+}
+
+.queries{
+    width:50%;
+    /* max-height: 700px; */
+    padding: 50px;
+
+}
+.queri-parag{
+    max-width:311px;
+    /* max-height: 37px; */
+    font-size:30px;
+    line-height:37px;
+    letter-spacing:2px;
+     font-family: "notoserif-regular";
+     padding:10px;
+     color:#1A2B56;
+
+}
+.lorem-parag{
+    max-width:494px;
+    /* max-height:57px; */
+    font-size: 16px;
+    line-height:28.5px;
+    color:#393939;
+    font-family: poppins;
+    padding:10px;
+
+}
+form {
+    max-width: 484px;
+    padding: 10px;
+}
+
+label {
+    display: block;
+        font-family: poppins;
+        color:#4A4A4A;
+
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #1A2B56;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.email-input{
+    max-width:220px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #1A2B56;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.email-flex{
+    display:flex;
+    max-width:484px;
+    gap:50px;
+}
+.email-flex1{
+    width:50%
+}
+.mobile-flex{
+    width:50%;
+}
+.msg-input{
+    height:113px;
+}
+.connected{
+    max-width:192px;
+    max-height:44px;
+    font-size:16px;
+    color:#FFFFFF;
+    line-height: 100%;
+    background-color: #64C6C2;
+    padding:15px ;
+    border-radius:40px;
+    border:none;
+    margin-left: 150px;
+    /* margin: 20px; */
+    
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width:599px) {
+.frames{
+    display:flex;
+    flex-direction: column;
+}
+.rectangle{
+        margin: 0 auto;
+
+   
+}
+
+.queries{
+    width:50%;
+    max-height: 700px;
+    padding: 5px;
+        margin: 0 auto;
+
+}
+.email-flex{
+    display:flex;
+    flex-direction: column;
+    max-width:484px;
+    gap:5px;
+}
+.connected{
+   padding:5px ;
+    margin-left: 5px;
+
+
+}
+.email-flex1{
+    width:100%
+}
+.mobile-flex{
+    width:100%;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width:767px) {
+
+.frames{
+    display:flex;
+    flex-direction: column;
+}
+.rectangle{
+        margin: 0 auto;
+
+   
+}
+.queries{
+    width:50%;
+    max-height: 700px;
+    padding: 5px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.email-flex{
+    display:flex;
+    flex-direction: column;
+    max-width:484px;
+    gap:5px;
+}
+.connected{
+   padding:5px ;
+    margin-left: 5px;
+
+
+}
+.email-flex1{
+    width:100%
+}
+.mobile-flex{
+    width:100%;
+}
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width:991px){
+
+.frames{
+    display:flex;
+    flex-direction: column;
+}
+.rectangle{
+        margin: 0 auto;
+
+   
+}
+.queries{
+    width:50%;
+    max-height: 700px;
+    padding: 5px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.email-flex{
+    display:flex;
+    flex-direction: column;
+    max-width:484px;
+    gap:5px;
+}
+.connected{
+   padding:5px ;
+    margin-left: 5px;
+
+
+}
+.email-flex1{
+    width:100%
+}
+.mobile-flex{
+    width:100%;
+}
+}
+
+
+ /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+
+.queries{
+  
+    padding: 10px;
+
+}
+}
