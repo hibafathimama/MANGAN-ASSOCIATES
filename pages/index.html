@@ -3,6 +3,12 @@
 
 <head>
     <title>Home</title>
+  
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <link rel="stylesheet" href="../styles/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Slick CSS -->
@@ -81,30 +87,71 @@
         </div>
 
         <div>
-            <button class="contact-us">CONTACT US</button>
+            <button id="contact-us">CONTACT US</button>
+             <div id="overlay">
+                <div class="modal">
+                 <div class="frames">
+            <div class="rectangle">
+                <div class="frame-image">
+                <img src="../images/Rectangle 24.png" alt="not available" width="100%" height="100%">
+                </div>
+            </div>
+            <div class="queries">
+                <div class="close">
+<img id="closeIcon" src="../images/material-symbols_close-rounded.png" alt="Close">
+          
+     </div>
+                <p class="queri-parag">Share your Queries</p>
+                <p class="lorem-parag">Lorem ipsum dolor sit amet consectetur. Cursus diam lobortis curabitur nulla eu. Est ornare sed in at augue sed feugiat.</p>
+            
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name"><br><br>
+                    <div class="email-flex">
+                        <div class="email-flex1">
+                     <label class="email-label" for="email">Email:</label><br>
+                     <input  class="email-input"type="email" id="email" name="email">
+                        </div>
+                        <div class="mobile-flex">
+                       <label class="email-label" for="mobile">Mobile Number:</label><br>
+                     <input  class="email-input"type="tel" id="mobile" name="mobile">
+                    </div>
+                    </div>
+                    <div>
+                    <label for="message">Message:</label><br>
+                    <input class="msg-input" type="text" id="message" name="message"><br><br>
+                    </div>
+
+                </form>
+               <button id="closeButton">GET CONNECTED</button>
+            
+            </div>
+
+        </div>
+                </div>
+             </div>
+                 <script src="script.js"></script>
+
         </div>
 
 
     </div>
     <div class="hero-slider">
-        <div class="back-image hero-slide hero-slide-1">
+        <div class="back-image hero-slide hero-slide-3">
             <div class="hero-content">
                 <p class="Fastest">THE FASTEST WAY<br>TO ACHIEVE<br>SUCCESS</p>
+                <br> <br>
                 <button class="contact-button">CONTACT US</button>
+             
             </div>
         </div>
         <div class="back-image hero-slide hero-slide-2">
             <div class="hero-content">
-                <p class="Fastest">BUILDING<br>STRONGER<br>PARTNERSHIPS</p>
+                <p class="Fastest">SPECIALIST <br>TALENT SOLUTIONS</p>
                 <button class="contact-button">CONTACT US</button>
             </div>
         </div>
-        <div class="back-image hero-slide hero-slide-3">
-            <div class="hero-content">
-                <p class="Fastest">DELIVERING<br>RESULTS<br>WITH CONFIDENCE</p>
-                <button class="contact-button">CONTACT US</button>
-            </div>
-        </div>
+      
     </div>
     <div class="proven">
         <div>
@@ -124,8 +171,13 @@
         </div>
     </div>
     <div class="about-us">
-        <div class="rectangle4">
+        <div class="hero-slider1">
+        <div class="rectangle4-slide1">
             <img src="../images/Rectangle 4.png" alt="not available" width="100%" height="100%">
+        </div>
+        <div class="rectangle-slide2">
+            <img src="../images/Rectangle 4 (1).png" alt="not available" width="100%" height="100%">
+        </div>
         </div>
         <div class="aboutus-section">
             <p class="aboutus-head">About Us</p> <br>
@@ -139,13 +191,19 @@
     <div class="services">
         <div>
             <p class="services-head">Services</p> <br><br>
+
+            <div class="paragraph-slider">
             <p class="Lorem-parag">Lorem ipsum dolor sit amet consectetur. Cursus venenatis feugiat vulputate non
                 accumsan metus adipiscing nisi. Ut cras ipsum ut vel pellentesque a in. Ut vestibulum magna ut mattis
                 non. Commodo ac nulla enim vel.</p>
+                
+                <p class="drawing">Drawing on a rich, high-performance network, we design and deliver high-quality customised talent solutions to help clients solve business problems and create positive outcomes. Years of experience mean we understand complex commercial landscapes, know how to navigate those environments,
+                     and offer sound independent advice to create long-lasting, productive talent solutions.</p>
 
+            </div>
         </div>
-
-        <div class="rectangle5">
+     <div class="hero-slider4">
+        <div class="rectangle5-heroslider1">
             <img src="../images/Rectangle 5 (1).png" alt="not available" width="100%" height="100%">
 
             <div class="group">
@@ -157,7 +215,19 @@
 
             </div>
         </div>
-        <div class="office-workers">
+            <div class="rectangle5-heroslider1">
+                <img src="../images/Rectangle 5 (3).png" alt="not available" width="100%" height="100%">
+            <div class="group">
+                <div class="icon">
+                    <img src="../images/Group 24.png" alt="not available" width="100%" height="100%">
+                </div>
+                <p class="Permanent">Staff
+                    Augmentation</p>
+            </div>
+        </div>
+        </div>
+        <div class="hero-slide5">
+        <div class="rectangle5-heroslider2">
             <img src="../images/Rectangle 5 (2).png" alt="not available" width="100%" height="100%">
             <div class="group">
                 <div class="icon">
@@ -168,6 +238,21 @@
 
             </div>
         </div>
+        
+        <div class="rectangle5-heroslider2">
+            <img src="../images/Rectangle 5 (4).png" alt="not available" width="100%" height="100%">
+            <div class="group">
+                <div class="icon">
+                    <img src="../images/Group 24.png" alt="not available" width="100%" height="100%">
+                </div>
+                <p class="Permanent"> Managed 
+Recruitment Services.
+                    </p>
+
+            </div>
+        </div>
+        </div>
+
     </div> <br><br>
     <div class="workers-section">
         <div class="workers">
@@ -176,10 +261,17 @@
                 backgrounds, skills, views, and lived experiences strengthen teams and fuel innovation, and an inclusive
                 culture empowering everyone to do their best work makes companies better. We hear every voice.</p>
         </div>
-        <div class="workers-image">
+        <div class="hero-slider6">
+        <div class="workers-image1">
             <img src="../images/Group 51 (1).png" alt="not available" width="100%" height="100%">
+        </div>
+        <div class="workers-image1">
+            <img src="../images/Rectangle 22.png" alt="not available" width="100%" height="100%">
+        </div>
+
 
         </div>
+
     </div> <br> <br> <br>
     <div class="Testimonials">
         <p class="Testimonials-parag">Testimonials</p>
@@ -310,9 +402,17 @@
     <br><br>
     <div class="contact-section">
         <div class="contact">
+             <div class="hero-slider7">
             <div class="workwomen">
                 <img src="../images/Rectangle 17.png" alt="not available" width="100%" height="100%">
             </div>
+            <div class="workwomen">
+                <img src="../images/Rectangle 17 (1).png" alt="not available" width="100%" height="100%">
+            </div>
+
+             </div>
+
+
             <div>
                 <p class="blog">Contact Us</p>
                 <div class="contact-form">
@@ -347,8 +447,8 @@
         </div>
     </div>
 
-
-    <footer class="mangan-footer">
+<footer class="footer-slider">
+    <div class="mangan-footer">
         <div class="logo-footer">
             <img src="../images/Group (1).png" alt="not available" width="100%" height="100%">
         </div>
@@ -387,14 +487,77 @@
                 </li>
 
             </ul>
-        </div>
+        </div><br> 
         <div class="line-footer">
             <img src="../images/Vector 3.png" alt="not available" width="100%" height="100%">
         </div>
-        <div>
+        <div><br> 
             <p class="parag-footer">© Copyright 2023 Mangan & Associates. All Rights Reserved</p>
         </div>
-    </footer>
+    </div> 
+
+     <div class="mangan-footer" >
+        <div  class="mangan-footer2">
+        <div>
+        <div class="logo-footer2">
+            <img src="../images/Group (1).png" alt="not available" width="100%" height="100%">
+        </div>
+        <div class="connectlink">
+            <p class="connectw">Connect with Us:</p>
+            <div class="linkd">
+                <img src="../images/Vector (17).png" alt="not available" width="100%" height="100%">
+            </div>
+        </div>
+        </div>
+        <div class="quicklinks">
+            <p class="quick">QUICK LINKS</p> <br>
+            <div class="quickline">
+                <img src="../images/Vector 6.png" alt="not available" width="100%" height="100%">
+            </div> <br> <br>
+
+              <ul class="footer-list">
+                <li style="color: #64C6C2;">Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Testimonials</li>
+                <li>News</li>
+                <li>Contact</li>
+
+            </ul>
+
+        </div>
+        <div>
+        <div class="acknowledgment">
+            <div>
+                 <p class="ack">ACKNOWLEDGEMENT</p> 
+            <div class="ackline">
+                <img src="../images/Vector 6.png" alt="not available" width="100%" height="100%">
+            </div>
+            </div>
+            <div class="flag">
+                <img src="../images/Australian_Aboriginal_Flag 1.png" alt="not available" width="100%" height="100%">
+
+            </div>
+        </div>
+        <p class="footer-parag">Mangan and Associates acknowledge the Traditional Custodians of the lands on which we operate and conduct our business throughout Australia. We pay our respects to their Elders, both past and present, 
+            and acknowledge their continuing culture and connection to their lands and waters.</p>
+
+        </div>
+        </div>
+     <!-- </footer> -->
+
+         <div class="line-footer">
+            <img src="../images/Vector 3.png" alt="not available" width="100%" height="100%">
+        </div>
+        <!-- <div> -->
+            <p class="parag-footer">© Copyright 2023 Mangan & Associates. All Rights Reserved</p>
+        </div>
+        </div>
+    </div>
+</footer>
+        
+
+
 
 
     <!-- jQuery -->
